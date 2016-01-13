@@ -131,13 +131,10 @@ build = {
     ["kong.plugins.udp-log.schema"] = "kong/plugins/udp-log/schema.lua",
 
     ["kong.plugins.http-log.handler"] = "kong/plugins/http-log/handler.lua",
-    ["kong.plugins.http-log.log"] = "kong/plugins/http-log/log.lua",
     ["kong.plugins.http-log.schema"] = "kong/plugins/http-log/schema.lua",
 
     ["kong.plugins.file-log.handler"] = "kong/plugins/file-log/handler.lua",
     ["kong.plugins.file-log.schema"] = "kong/plugins/file-log/schema.lua",
-    ["kong.plugins.file-log.log"] = "kong/plugins/file-log/log.lua",
-    ["kong.plugins.file-log.fd_util"] = "kong/plugins/file-log/fd_util.lua",
 
     ["kong.plugins.mashape-analytics.handler"] = "kong/plugins/mashape-analytics/handler.lua",
     ["kong.plugins.mashape-analytics.schema"] = "kong/plugins/mashape-analytics/schema.lua",
@@ -171,7 +168,6 @@ build = {
     ["kong.plugins.response-transformer.schema"] = "kong/plugins/response-transformer/schema.lua",
 
     ["kong.plugins.cors.handler"] = "kong/plugins/cors/handler.lua",
-    ["kong.plugins.cors.access"] = "kong/plugins/cors/access.lua",
     ["kong.plugins.cors.schema"] = "kong/plugins/cors/schema.lua",
 
     ["kong.plugins.ssl.handler"] = "kong/plugins/ssl/handler.lua",
@@ -187,14 +183,6 @@ build = {
 
     ["kong.plugins.acl.schema.migrations"] = "kong/plugins/acl/schema/migrations.lua",
     ["kong.plugins.acl.handler"] = "kong/plugins/acl/handler.lua",
-    ["kong.plugins.acl.access"] = "kong/plugins/acl/access.lua",
-    ["kong.plugins.acl.schema"] = "kong/plugins/acl/schema.lua",
-    ["kong.plugins.acl.api"] = "kong/plugins/acl/api.lua",
-    ["kong.plugins.acl.daos"] = "kong/plugins/acl/daos.lua",
-
-    ["kong.plugins.acl.schema.migrations"] = "kong/plugins/acl/schema/migrations.lua",
-    ["kong.plugins.acl.handler"] = "kong/plugins/acl/handler.lua",
-    ["kong.plugins.acl.access"] = "kong/plugins/acl/access.lua",
     ["kong.plugins.acl.schema"] = "kong/plugins/acl/schema.lua",
     ["kong.plugins.acl.api"] = "kong/plugins/acl/api.lua",
     ["kong.plugins.acl.daos"] = "kong/plugins/acl/daos.lua",
