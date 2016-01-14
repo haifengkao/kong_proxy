@@ -23,7 +23,7 @@ end
 
 function _M.execute(conf)
     
-    require('mobdebug').start("127.0.0.1")
+    --require('mobdebug').start("127.0.0.1")
     local uri = stringy.split(ngx.var.request_uri, "?")[1]
     local hostName = nil
     if conf.HostTag then
