@@ -47,6 +47,9 @@ test-integration:
 test-plugins:
 	@busted -v spec/plugins
 
+test-kong-proxy:
+	@busted -v spec/plugins/kong-proxy
+
 test-all:
 	@busted -v spec/
 

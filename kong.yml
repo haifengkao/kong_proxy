@@ -1,5 +1,6 @@
 ## Available plugins on this server
 plugins_available:
+  - kong-proxy
   - ssl
   - jwt
   - acl
