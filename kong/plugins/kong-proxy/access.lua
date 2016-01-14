@@ -28,6 +28,9 @@ function _M.execute(conf)
     local hostName = nil
     if conf.HostTag then
         hostName = ngx.req.get_headers()[conf.HostTag]
+
+        -- clear the Host tag
+        ngx.req.set_header(conf.HostTag, nil)
     end
 
     if hostName then
