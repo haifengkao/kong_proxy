@@ -49,7 +49,7 @@ $ curl -i -X POST \
 ```shell
 $ curl -i -X POST \
   --url http://localhost:8001/apis/myProxyPlugin/plugins/ \
-  --data 'name=kong-proxy'
+  --data 'name=kong-proxy' \ 
   --data "config.HostTag=The-Real-Host"
 ```
 
