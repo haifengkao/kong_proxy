@@ -33,7 +33,7 @@ $ kong reload -c kong_DEVELOPMENT.yml
 
 ### Configure the proxy plugin
 
-#### Add an api
+##### Add an api
 The kong proxy is a plugin of kong framework.
 You need to enable the plugin by:
 
