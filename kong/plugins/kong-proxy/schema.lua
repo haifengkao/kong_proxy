@@ -1,6 +1,7 @@
 return {
   fields = {
-    HostTag = { type = "string", default = "HOST_TAG" },
-    HostTagUnknown = { type = "string", default = "HOST_TAG_UNKNOWN" }
+    --http header doesn't allow underscore '_'
+    HostTag = { type = "string", default = "K-HOST" },
+    HostTagUnknown = { type = "string", default = "K-HOST-UNKNOWN" }
   }
 }
